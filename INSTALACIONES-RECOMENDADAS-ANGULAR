@@ -21,6 +21,10 @@ INSTALACIONES RECOMENDADAS
          * VISUALIZAR O ENLISTAR LAS VERSIONES DE Node.js
            nvm ls
 
+         * ESTABLECER VERSION DE Node.js DE FORMA PREDETERMINADA
+           nvm alias default v14.21.3
+
+
 
      
      NPM,                           ENLACE: https://www.freecodecamp.org/espanol/news/como-instalar-nodejs-en-ubuntu-y-actualizar-npm-a-la-ultima-version/
