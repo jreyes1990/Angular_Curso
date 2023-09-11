@@ -1,0 +1,64 @@
+* DOCUMENTACION ANGULAR:
+  Enlace: https://angular.io/cli
+  
+* VERSIONES DE ANGULAR:
+  https://angular.io/guide/releases
+  
+   
+*** SECCION 1 - INTRODUCCION AL CURSO
+    * INSTALACION DE ANGULAR
+      npm install -g @angular/cli 
+    
+      ó
+    
+      sudo npm install -g @angular/cli 
+   
+    * INSTALACION DE ANGULAR (VERSION ESPECIFICA)
+      npm install -g @angular/cli@15.0.0
+    
+      ó
+    
+      sudo npm install -g @angular/cli@15.0.0 
+   
+    * VERICAR LA VERSION DE ANGULAR
+      ng version
+   
+*** SECCION 2 - CONCEPTOS GENERALES PARA EMPEZAR CON ANGULAR Y TYPESCRIPT
+    * QUE ES TYPESCRIPT?
+      - Es un super set de JavaScript.
+      - Ofrece tipado estrcito y flexible.
+      - Mejora enormemente la legibilidad del codigo.
+      - Nos permite user caracteristicas modernas.
+    
+    * PORQUE ANGULAR USA TYPESCRIPT?
+      - Tenemos la ayuda y un entillisense fuerte.
+      - Tenemos tipado estricto  y errores en momento de escritura.
+      - Nos permite la inyeccion de dependencias.
+      
+*** SECCION 3 - BASES CON TYPESCRIPT (RECOMENDADO)
+    * CREANDO LA APLICACION VITE
+      npm create vite
+      
+      1. Agregar nombre al proyecto: myApp
+      2. Seleccionar framework: [ 1 ]
+         1. Vanilla
+         2. Vue
+         3. React
+         4. Lit
+         5. Svelte
+         6. Solid
+         7. Qwik
+         8. Others
+      3. Seleccionar Variante [ 1 ]
+         1. TypeScript
+         2. JavaScript
+         
+      4. Ir a la ubicacion del proyecto
+         
+      5. Instalar npm del proyecto
+         npm install
+      6. Ejecutar el proyecto
+         npm run dev
+      7. El el cmd, aparecera la ruta a ejecutar el proyecto
+         localhost:5173
+
