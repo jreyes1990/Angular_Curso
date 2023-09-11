@@ -27,6 +27,7 @@ console.log(`Song: ${anotherSong} \nDuration: ${duration}\nAuthor: ${author}\nAn
 /* DESTRUCTURACION DE ARREGLOS */
 const dbz: string[] = ['Goku', 'Vegeta', 'Trunks'];
 
+console.log('Personaje 3: ', dbz[3] || 'Personaje no encontrado')
 
 
 export {};
