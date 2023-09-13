@@ -13,6 +13,13 @@ export class Person {
   }
 }
 
-const iroman = new Person('Alberto', 'Santa Lucia Cotz.');
+export class Hero extends Person {
+  constructor( public alterEgo:string, public age:number, public realName:string ){
+    super( realName, 'New York');
+  }
+}
+
+
+const iroman = new Hero('Alberto', 33, 'Jolberth');
 
 console.log(iroman)
