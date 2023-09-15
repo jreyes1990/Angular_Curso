@@ -3,7 +3,8 @@ import typescriptLogo from './typescript.svg'
 import viteLogo from '/vite.svg'
 import { setupCounter } from './counter.ts'
 
-import "./topics/09-generics.ts"
+import "./topics/10-decotarors.ts"
+// import "./topics/09-generics.ts"
 // import "./topics/08-class.ts"
 // import "./topics/07-import-exports.ts"
 // import "./topics/06-funtion-destructuring.ts"
