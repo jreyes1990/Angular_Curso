@@ -7,7 +7,8 @@
 * VERSIONES DE ANGULAR:
   https://angular.io/guide/releases
   
-   
+
+/*********************************************************************************************************************************************************/
 *** SECCION 1 - INTRODUCCION AL CURSO
     * INSTALACION DE ANGULAR
       npm install -g @angular/cli 
@@ -26,6 +27,8 @@
     * VERICAR LA VERSION DE ANGULAR
       ng version
    
+   
+/*********************************************************************************************************************************************************/
 *** SECCION 2 - CONCEPTOS GENERALES PARA EMPEZAR CON ANGULAR Y TYPESCRIPT
     * QUE ES TYPESCRIPT?
       - Es un super set de JavaScript.
@@ -37,7 +40,9 @@
       - Tenemos la ayuda y un entillisense fuerte.
       - Tenemos tipado estricto  y errores en momento de escritura.
       - Nos permite la inyeccion de dependencias.
-      
+
+
+/*********************************************************************************************************************************************************/
 *** SECCION 3 - BASES CON TYPESCRIPT (RECOMENDADO)
     * CREANDO LA APLICACION VITE
       npm create vite
@@ -64,4 +69,31 @@
          npm run dev
       7. El el cmd, aparecera la ruta a ejecutar el proyecto
          localhost:5173
+
+         
+/*********************************************************************************************************************************************************/         
+*** SECCION 4 - ANGULAR (FRAMEWORK)
+    * QUE ES ANGULAR?
+      - Marco de trabajo estandarizado.
+      - Viene con todo lo que necesitas para trabajar.
+      - Es modular.
+      - Google es que le da mantenimiento hoy en dia.
+      
+    * BLOQUES FUNDAMENTALES.
+      - Componentes
+        Bloque de codigo HTML y tiene una contraparte de clase TypeScript.
+      - Rutas.
+        Mostrar diferentes componentes basados en el URL del navegador Web.
+      - Directivas.
+        1. Directiva de componentes.
+        2. Directiva estructurales.
+        3. Directiva de atributos.
+      - Servicios.
+        Lugar central de informacion (Componentes -> Boton -> Servicios)
+      - Modulos.
+      
+
+
+
+
 
