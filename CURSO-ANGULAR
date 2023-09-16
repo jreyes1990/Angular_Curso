@@ -120,6 +120,7 @@
          
          AHORA PODRA EJECUTAR START EN LUGAR DE NG SERVE
          npm start
+         
       5. RUTA EJECUCION DEL PROYECTO
          localhost:4200
 
