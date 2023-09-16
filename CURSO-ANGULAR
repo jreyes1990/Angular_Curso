@@ -92,8 +92,36 @@
         Lugar central de informacion (Componentes -> Boton -> Servicios)
       - Modulos.
       
+    * CREANDO MI PRIMER PROYECTO DE ANGULAR
+      1. CAMBIAMOS LA VERSION DE Node.js (Version 16)
+         nvm use 16
+         
+      2. VERIFICAMOS LA VERSION DE ANGULAR
+         ng version
+         
+      3. CREAMOS UN PROYECTO DE ANGULAR DESDE 0 ( Ejemplo: ng new my-app ) 
+         ng new bases
+         
+         PREGUNTAS ANTES DE CREACION DEL PROYECTO:
+         1. Would you like to add Angular routing? [ N ]
+         2. Which stylesheet format would you like to use? [ CSS ]
 
-
+      4. EJECUCION DEL PROYECTO ( MODO DESARROLLO )
+         ng serve
+         
+         Would you like to share pseudonymous usage data about this project with the Angular Team
+         at Google under Google's Privacy Policy at https://policies.google.com/privacy. For more
+         details and how to change this setting, see https://angular.io/analytics. [ Y ]
+         
+         CONFIGURAR EL PACKAGE.JSON
+         "scripts": {
+           "start": "ng serve -o",
+         }
+         
+         AHORA PODRA EJECUTAR START EN LUGAR DE NG SERVE
+         npm start
+      5. RUTA EJECUCION DEL PROYECTO
+         localhost:4200
 
 
 
