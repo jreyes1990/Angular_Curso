@@ -125,6 +125,15 @@
          localhost:4200
          
          
+    * COMO CREAR UN COMPONENTE EN ANGULAR
+      ng generate component heroes/hero
+      ng generate component heroes/list
+      
+      o
+      
+      ng g c heroes/hero
+      ng g c heroes/list
+         
          
          
          
