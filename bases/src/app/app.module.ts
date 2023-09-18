@@ -5,10 +5,12 @@ import { CounterModule } from './counter/counter.module';
 import { HeroesModule } from './heroes/heroes.module';
 
 import { AppComponent } from './app.component';
+import { MainPageComponent } from './dbz/pages/main-page.component';
 
 @NgModule({
   declarations: [
     AppComponent,
+    MainPageComponent,
   ],
   imports: [
     BrowserModule,
