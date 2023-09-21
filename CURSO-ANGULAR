@@ -147,6 +147,13 @@
       
       ng g m dbz
       
+    * INSTALACION DE PAQUETE EXTERNO (UUID), Enlace: https://www.npmjs.com/package/uuid
+      npm i uuid
+      
+    * EJECUTAR CUANDO EXISTA UN ERROR DE DECLARACION DEL MODULO 'UUID'
+      npm i --save-dev @types/uuid
+      
+      
       
       
          

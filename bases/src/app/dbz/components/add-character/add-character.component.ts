@@ -1,4 +1,5 @@
 import { Component, EventEmitter, Output } from '@angular/core';
+import { v4 as uuid } from "uuid";
 import { Character } from '../../interfaces/character.interface';
 
 @Component({
@@ -11,6 +12,7 @@ export class AddCharacterComponent {
   public onNewCharacter:EventEmitter<Character> = new EventEmitter();
 
   public character:Character = {
+    id: uuid(),
     name: '',
     power: 0,
   };
