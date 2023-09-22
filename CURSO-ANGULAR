@@ -173,11 +173,16 @@
      - COMANDO: 
        http-server -o
        
-   * DESPLEGAR PROYECTO DE ANGULAR EN LA WEB, Enlace: https://www.netlify.com/
+   * DESPLEGAR PROYECTO DE ANGULAR EN LA WEB (NETLIFY), Enlace: https://www.netlify.com/
      - NOTA: Se regsitro con la cuenta de github ( jarl1990mt@gmail.com )
      - IR a SITE:
        - Arrastrar la carpeta de produccion: /home/jreyes/Documentos/Angular/bases/dist/bases
        - Automaticamente nos brindara un sitio para ver la aplicacion Web.
+   
+   * DESPLEGAR PROYECTO DE ANGULAR EN LA WEB (GITHUB PAGE)
+     - ANTES DE SUBIR EL PROYECTO A GITHUB, DEBEMOS COPIAR LA CARPETA "BASES: /home/jreyes/Documentos/Angular/bases/dist/bases " y pegarlo en el root del proyecto
+     - SUBIR EL PROYECTO A GITHUB
+     
      
       
          
