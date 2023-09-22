@@ -159,6 +159,27 @@
     * GENERAR BUILD EN PRODUCCION
       ng build
       
+      o
+      
+      npm run build
+      
+   * INSTALAR HTTP-SERVER, Enlace: https://github.com/http-party/http-server
+                           Enlace: https://www.npmjs.com/package/http-server?activeTab=readme
+     sudo npm install --global http-server
+     
+   * EJECUTAR MODO PRODUCCION
+     - RUTA: cd /home/jreyes/Documentos/Angular/bases/dist/bases
+     
+     - COMANDO: 
+       http-server -o
+       
+   * DESPLEGAR PROYECTO DE ANGULAR EN LA WEB, Enlace: https://www.netlify.com/
+     - NOTA: Se regsitro con la cuenta de github ( jarl1990mt@gmail.com )
+     - IR a SITE:
+       - Arrastrar la carpeta de produccion: /home/jreyes/Documentos/Angular/bases/dist/bases
+       - Automaticamente nos brindara un sitio para ver la aplicacion Web.
+     
+      
          
          
          
