@@ -192,6 +192,32 @@
        - SI QUEREMOS VER EL PROCESO DE DESPLIEGUE
          - IR A "ACTIONS" DE GITHUB
          - AL TERMINAR EL DEPLOY, DAR CLICK Y EN LA RAMA "DEPLOY" NOS DARA LA RUTA
+         
+    * AUTOMATIZAR LA CONSTRUCCION DE LA CARPETA "DOCS"
+      - CONFIGURAR EL PACKAGE.JSON
+        - EJECUTAR EL COMANDO: 
+          npm run build:href
+        
+      - INSTALAR del-cli, como dependencia de desarrollo, Enlace: https://www.npmjs.com/package/del-cli
+        npm i del-cli --save-dev
+        
+      - CONFIGURAR EL PACKAGE.JSON PARA ELIMINAR LA CARPETA "DOCS"
+        - EJECUTAR EL COMANDO: 
+          npm run delete:docs
+            
+      - INSTALAR copyfiles como dependencia de desarrollo, para copiar archivos a la carpeta "docs", Enlace: https://www.npmjs.com/package/copyfiles
+        npm i copyfiles --save-dev
+        
+      - CONFIGURAR EL PACKAGE.JSON PARA COPIAR LOS ARCHIVOS DE LA CARPETA DIST/BASES/ Y PEGARLOS A LA CARPETA "DOCS"
+        - EJECUTAR EL COMANDO: 
+          npm run copy:dist
+          
+      - CONFIGURAR EL PACKAGE.JSON PARA CONSTRUIR EL SITIO DE GITHUB
+        - EJECUTAR EL COMANDO: 
+          npm run build:github
+        
+        
+        
      
      
       
