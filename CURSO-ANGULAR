@@ -182,6 +182,15 @@
    * DESPLEGAR PROYECTO DE ANGULAR EN LA WEB (GITHUB PAGE)
      - ANTES DE SUBIR EL PROYECTO A GITHUB, DEBEMOS COPIAR LA CARPETA "BASES: /home/jreyes/Documentos/Angular/bases/dist/bases " y pegarlo en el root del proyecto
      - SUBIR EL PROYECTO A GITHUB
+       - DAR CLICK EN "SETTIGS" DE GITHUB
+         - IR A PAGES
+           - IR A BRANCH
+             - SELECCIONAR LA RAMA "MAIN"
+               - SELECCIONAR LA CARPETA "DOCS"
+                 - DAR CLICK EN EL BOTON "SAVE"
+                 
+       - SI QUEREMOS VER EL PROCESO DE DESPLIEGUE
+         - IR A "ACTIONS" DE GITHUB
      
      
       
