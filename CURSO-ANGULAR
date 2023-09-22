@@ -215,6 +215,12 @@
       - CONFIGURAR EL PACKAGE.JSON PARA CONSTRUIR EL SITIO DE GITHUB
         - EJECUTAR EL COMANDO: 
           npm run build:github
+          
+/*********************************************************************************************************************************************************/         
+*** SECCION 7 - GIFSAPP
+    - CREAMOS UN NUEVO PROYECTO
+      - EJECUTAR COMANDO:
+        npm init @angular gifs-app
         
         
         
