@@ -222,8 +222,17 @@
       - EJECUTAR COMANDO:
         npm init @angular gifs-app
         
+      - EJECUTAR PROYECTO
+        ng serve  
         
-        
+    - GENERAR MODULO EN LA CARPETA "gifs"
+      ng generate module gifs
+      
+    - GENERAR MODULO EN LA CARPETA "shared"
+      ng generate module shared    
+      
+    - GENERAR COMPONENTE EN LA CARPETA "shared"
+      ng generate component shared/components/sidebar
      
      
       
