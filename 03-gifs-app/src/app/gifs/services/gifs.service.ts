@@ -6,6 +6,7 @@ import { Injectable } from '@angular/core';
 
 export class GifsService {
   private _tagsHistory:string[] = [];
+  private apiKey:string = '1BRyEKQNJJTCEC5wjl4aOyLgnT3ybwcr';
 
   constructor() { }
 
