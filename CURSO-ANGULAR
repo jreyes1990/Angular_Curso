@@ -236,8 +236,12 @@
     
     - GENERAR COMPONENTE EN LA CARPETA "gifs/pages"
       ng generate component gifs/pages/home
-     
+    
+    - GENERAR COMPONENTE EN LA CARPETA "gifs/components"
+      ng generate component gifs/components/card-list
       
+    - GENERAR SERVICIO EN LA CARPETA "gifs/services"
+      ng generate service gifs/services/gifs
          
          
          
