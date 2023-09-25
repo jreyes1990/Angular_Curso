@@ -245,6 +245,8 @@
       
     - API para obtener imagenes, Enlace: https://developers.giphy.com/, Enlace2: https://developers.giphy.com/dashboard/
          
+    - GENERAR INTERFACE EN LA CARPETA "gifs/interfaces"
+      ng generate interface gifs/interfaces/gifs.interfaces
          
          
 
