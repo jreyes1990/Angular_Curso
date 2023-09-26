@@ -251,6 +251,12 @@
          
 /*********************************************************************************************************************************************************/         
 *** SECCION 8 - IMAGE LOADER
+    - GENERAR COMPONENTE EN LA CARPETA "gifs/components"
+      ng generate component gifs/components/card
+      
+    - GENERAR COMPONENTE EN LA CARPETA "shared"
+      ng generate component shared/components/lazyImage
+      
     
 
 
