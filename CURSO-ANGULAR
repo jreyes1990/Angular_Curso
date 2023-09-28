@@ -273,6 +273,10 @@
     - GENERAR COMPONENTE EN LA CARPETA "shared/pages"
       ng generate component shared/pages/homePage --inline-style --skip-tests
       ng generate component shared/pages/aboutPage --inline-style --skip-tests
+      ng generate component shared/pages/contactPage --inline-style --skip-tests
+      
+    - GENERAR COMPONENTE EN LA CARPETA "shared/components"
+      ng generate component shared/components/sidebar --inline-style --skip-tests
       
     
     
