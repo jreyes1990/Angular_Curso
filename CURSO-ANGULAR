@@ -257,6 +257,19 @@
     - GENERAR COMPONENTE EN LA CARPETA "shared"
       ng generate component shared/components/lazyImage
       
+      
+/*********************************************************************************************************************************************************/         
+*** SECCION 9 - COUNTRY SPA
+    - CREAMOS UN NUEVO PROYECTO
+      - EJECUTAR COMANDO:
+        ng new 04-countryApp
+        
+    - GENERAR MODULO EN LA CARPETA "countries"
+      ng generate module countries
+      
+    - GENERAR MODULO EN LA CARPETA "shared"
+      ng generate module shared
+    
     
 
 
