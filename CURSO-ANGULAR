@@ -269,6 +269,11 @@
       
     - GENERAR MODULO EN LA CARPETA "shared"
       ng generate module shared
+      
+    - GENERAR COMPONENTE EN LA CARPETA "shared/pages"
+      ng generate component shared/pages/homePage --inline-style --skip-tests
+      ng generate component shared/pages/aboutPage --inline-style --skip-tests
+      
     
     
 
