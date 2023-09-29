@@ -278,7 +278,11 @@
     - GENERAR COMPONENTE EN LA CARPETA "shared/components"
       ng generate component shared/components/sidebar --inline-style --skip-tests
       
-    
+    - GENERAR COMPONENTE EN LA CARPETA "countries/pages"
+      ng generate component countries/pages/byCapitalPage --inline-style --skip-tests
+      ng generate component countries/pages/byCountryPage --inline-style --skip-tests
+      ng generate component countries/pages/byRegionPage --inline-style --skip-tests
+      ng generate component countries/pages/CountryPage --inline-style --skip-tests
     
 
 
